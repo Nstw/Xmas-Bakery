@@ -12,11 +12,81 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>GetLinks Frontend Developer Test</title>
   </head>
 
   <body>
-    <h1>Hello, world!</h1>
+    <!-- SHOWCASE SLIDER -->
+    <section id="showcase">
+      <div
+        id="bs-carousel"
+        class="carousel home-carousel slide"
+        data-ride="carousel"
+        data-interval="5000"
+      >
+        <!-- Overlay -->
+        <div class="overlay"></div>
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#bs-carousel" data-slide-to="1"></li>
+          <li data-target="#bs-carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper -->
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-img active">
+            <div class="slide-1"></div>
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5">
+                <h1 class="display-3">Merry Christmas!!</h1>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Corporis modi possimus, ducimus ipsa sit harum animi facilis
+                  dolorem atque doloremque?
+                </p>
+                <a href="#" class="btn btn-danger btn-lg">More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-img">
+            <div class="slide-2"></div>
+            <div class="container">
+              <div
+                class="carousel-caption d-none d-sm-block mb-5 caption--dark"
+              >
+                <h1 class="display-3">Merry Christmas!!</h1>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Corporis modi possimus, ducimus ipsa sit harum animi facilis
+                  dolorem atque doloremque?
+                </p>
+                <a href="#" class="btn btn-danger btn-lg">More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-img">
+            <div class="slide-3"></div>
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5">
+                <h1 class="display-3">Merry Christmas!!</h1>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Corporis modi possimus, ducimus ipsa sit harum animi facilis
+                  dolorem atque doloremque?
+                </p>
+                <a href="#" class="btn btn-danger btn-lg">More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

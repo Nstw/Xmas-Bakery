@@ -71,3 +71,18 @@
 .home-carousel .carousel-img .slide-3 {
   background-image: url("./img/carousel/cover3.jpg");
 }
+
+/***********************************************/
+/*                BAKED GOODS                  */
+/***********************************************/
+.img__sweets {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.btn-lgr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 12%;
+  padding-right: 12%;
+}

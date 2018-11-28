@@ -86,3 +86,96 @@
   padding-left: 12%;
   padding-right: 12%;
 }
+
+/***********************************************/
+/*                  FOOTER                     */
+/***********************************************/
+.home-footer {
+  color: white;
+  background-color: #a84949;
+  padding-top: 30px;
+  flex: 0 0 auto;
+}
+
+.home-footer .footer-copyright {
+  background-color: #4b0517;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.home-footer .row {
+  margin-bottom: 20px;
+}
+
+.home-footer .footer-copyright p {
+  margin: 8px;
+  color: #ccc;
+}
+
+.home-footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.5;
+}
+
+.home-footer h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.home-footer a {
+  color: #d2d1d1;
+}
+
+.home-footer a:hover,
+.home-footer a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.home-footer .social-icons {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.home-footer .social-icons a {
+  font-size: 32px;
+  color: #f9f9f9;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.home-footer .social-icons a:hover {
+  text-decoration: none;
+}
+
+.home-footer .facebook:hover {
+  color: #0077e2;
+}
+
+.home-footer .google:hover {
+  color: #ef1a1a;
+}
+
+.home-footer .twitter:hover {
+  color: #00aced;
+}
+
+.home-footer .btn {
+  width: 150px;
+  margin: 0 auto;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #e29133;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .home-footer {
+    text-align: center;
+  }
+}
